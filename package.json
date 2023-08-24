@@ -1,0 +1,23 @@
+{
+  "name": "edge_point_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tests/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^3.2.0",
+    "selenium-webdriver": "^4.9.0",
+    "uniqid": "^5.4.0",
+    "uuid": "^9.0.0"
+  },
+  "bin": {
+    "edge_run": "tests/test.js"
+  }
+}
